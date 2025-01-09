@@ -4,6 +4,7 @@ import React from "react";
 import "./index.css";
 import App from "./App.jsx";
 import BgChanger from "./BgChanger.jsx";
+import PasswordGenerator from "./PasswordGenerator.jsx";
 
 // const randomElement = React.createElement(
 //   "a",
@@ -14,9 +15,10 @@ import BgChanger from "./BgChanger.jsx";
 const rootEl = document.getElementById("root");
 createRoot(rootEl).render(
   <StrictMode>
-    {/* <App /> */}
-    <BgChanger />
     {/* 
     {randomElement} */}
+    {/* <App /> */}
+    {/* <BgChanger /> */}
+    <PasswordGenerator />
   </StrictMode>
 );
