@@ -17,11 +17,15 @@ function App() {
 
   return (
     <>
-      <h1>Chai aur Code</h1>
+      <h1 className="flex-center">Chai aur Code</h1>
       <h2>Counter Value: {counter}</h2>
       <button onClick={addCount}>Add count</button>
 
       <button onClick={removeCount}>Remove count</button>
+
+      <button className="bg-violet-500 hover:bg-violet-800">
+        Tailwind test
+      </button>
     </>
   );
 }
