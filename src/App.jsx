@@ -6,6 +6,10 @@ function App() {
   const addCount = () => {
     if (counter < 20) {
       setCounter(counter + 1);
+
+      ///// interesting concept:
+      // setCounter((prevCounter) => prevCounter + 1);
+      // setCounter((prevCounter) => prevCounter + 1);
     }
   };
 
@@ -23,7 +27,7 @@ function App() {
 
       <button onClick={removeCount}>Remove count</button>
 
-      <button className="bg-violet-500 hover:bg-violet-800">
+      <button className="bg-violet-500 hover:bg-violet-800 ">
         Tailwind test
       </button>
     </>
