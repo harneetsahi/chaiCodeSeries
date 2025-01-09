@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import React from "react";
 import "./index.css";
 import App from "./App.jsx";
+import BgChanger from "./BgChanger.jsx";
 
 // const randomElement = React.createElement(
 //   "a",
@@ -13,7 +14,8 @@ import App from "./App.jsx";
 const rootEl = document.getElementById("root");
 createRoot(rootEl).render(
   <StrictMode>
-    <App />
+    {/* <App /> */}
+    <BgChanger />
     {/* 
     {randomElement} */}
   </StrictMode>
