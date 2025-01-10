@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App.jsx";
 import BgChanger from "./BgChanger.jsx";
 import PasswordGenerator from "./PasswordGenerator.jsx";
+import CurrencyConvertor from "./CurrencyConvertor.jsx";
 
 // const randomElement = React.createElement(
 //   "a",
@@ -19,6 +20,7 @@ createRoot(rootEl).render(
     {randomElement} */}
     {/* <App /> */}
     {/* <BgChanger /> */}
-    <PasswordGenerator />
+    {/* <PasswordGenerator /> */}
+    <CurrencyConvertor />
   </StrictMode>
 );
