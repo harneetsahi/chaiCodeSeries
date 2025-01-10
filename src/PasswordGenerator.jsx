@@ -56,6 +56,12 @@ export default function PasswordGenerator() {
     window.navigator.clipboard.writeText(password); //// this executes the actual copying task
   }, [password]);
 
+  //////
+
+  const generateAgain = () => {
+    passGen();
+  };
+
   return (
     <>
       <h1 className="tetx-4xl text-center">Password Generator</h1>
@@ -68,7 +74,10 @@ export default function PasswordGenerator() {
           placeholder="password"
           readOnly
         />
-        <button onClick={copyPassword}>copy</button>
+        <button onClick={copyPassword}>Copy</button>
+        <button className="m-0" onClick={generateAgain}>
+          Generate again
+        </button>
       </div>
       <div>
         <input
