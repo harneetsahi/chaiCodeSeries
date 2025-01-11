@@ -64,18 +64,20 @@ export default function PasswordGenerator() {
 
   return (
     <>
-      <h1 className="tetx-4xl text-center">Password Generator</h1>
-      <div>
+      <h1 className="text-5xl text-center">Password Generator</h1>
+      <div className="mt-5 mb-5">
         <input
           ref={passRef}
           type="text"
           value={password}
-          className="password h-10 rounded-md bg-white p-5 text-zinc-900"
+          className=" h-10 rounded-md bg-white p-5 text-zinc-900"
           placeholder="password"
           readOnly
         />
-        <button onClick={copyPassword}>Copy</button>
-        <button className="m-0" onClick={generateAgain}>
+        <button className="ml-2 bg-slate-600" onClick={copyPassword}>
+          Copy
+        </button>
+        <button className="ml-2 bg-slate-600" onClick={generateAgain}>
           Generate again
         </button>
       </div>
