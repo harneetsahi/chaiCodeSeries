@@ -24,3 +24,8 @@ It stores data in localStorage and fetches it.
 
 16. Delete buttons removes the todo from the todos array.
 17. Completion checkbox toggles the completed state by calling toggleComplete function.
+
+18. In App.jsx, addTodo adds a new todo to the todos array.
+19. updateTodo updates the existing todo in the todos array by replacing with the new updated todo object.
+20. deleteTodo removes a todo from the todos array by using a filter method.
+21. toggleComplete toggles the complete state.
