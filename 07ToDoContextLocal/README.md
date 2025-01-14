@@ -8,9 +8,11 @@ It stores data in localStorage and fetches it.
 2. Craete TodoProvider to wrap the entire app and make the state and functions available to child components.
 3. In App.jsx, create useState to manage todos, which is an array of todo objects, each containing an id, todo (msg), completed state (initially set to false), all functions for managing these todos: add, update, delete, toggle.
 4. useEffect is used to store data is localStorage.
-5.
-6.
-7.
-8.
+
+5. Create a TodoForm.jsx file to handle form input handling. It handles s single todo via state. Value is stored in the todo using setTodo.
+6. addToDo is called to create a new todo object, generates a new Id, and sets the initial completed state to false.
+7. This new todo is added to the todos in the app.jsx
+8. setTodo is set to empty to empty the input field.
+
 9.
 10.
