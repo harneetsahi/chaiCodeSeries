@@ -1,6 +1,6 @@
 # TodoList
 
-Todo App using react. Also stores data in localStorage and fetches it when it loads.
+Todo App using react. Also stores data in localStorage and fetches it when it loads. I created it using the concept of useContext to pass down the values and functions.
 
 
 # Steps:
