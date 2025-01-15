@@ -1,6 +1,7 @@
 # TodoList
 
-It stores data in localStorage and fetches it.
+Todo App using react. Also stores data in localStorage and fetches it when it loads.
+
 
 # Steps:
 
